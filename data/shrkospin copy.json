@@ -1,0 +1,953 @@
+{
+  "agus": [
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 1,
+      "saldo": 100000,
+      "jmt": "2024-04-26"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 2,
+      "saldo": 200000,
+      "jmt": "2024-05-03"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 3,
+      "saldo": 300000,
+      "jmt": "2024-05-10"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 4,
+      "saldo": 400000,
+      "jmt": "2024-05-17"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 5,
+      "saldo": 500000,
+      "jmt": "2024-05-24"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 6,
+      "saldo": 600000,
+      "jmt": "2024-05-31"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 7,
+      "saldo": 700000,
+      "jmt": "2024-06-07"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 8,
+      "saldo": 800000,
+      "jmt": "2024-06-14"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 9,
+      "saldo": 900000,
+      "jmt": "2024-06-21"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 10,
+      "saldo": 1000000,
+      "jmt": "2024-06-28"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 11,
+      "saldo": 1100000,
+      "jmt": "2024-07-05"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 12,
+      "saldo": 1200000,
+      "jmt": "2024-07-12"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 13,
+      "saldo": 1300000,
+      "jmt": "2024-07-19"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 14,
+      "saldo": 1400000,
+      "jmt": "2024-07-26"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 15,
+      "saldo": 1500000,
+      "jmt": "2024-08-02"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 16,
+      "saldo": 1600000,
+      "jmt": "2024-08-09"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 17,
+      "saldo": 1700000,
+      "jmt": "2024-08-16"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 18,
+      "saldo": 1800000,
+      "jmt": "2024-08-23"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-27",
+      "minggu": 19,
+      "saldo": 1900000,
+      "jmt": "2024-08-30"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 20,
+      "saldo": 0,
+      "jmt": "2024-09-06"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 21,
+      "saldo": 0,
+      "jmt": "2024-09-13"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 22,
+      "saldo": 0,
+      "jmt": "2024-09-20"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 23,
+      "saldo": 0,
+      "jmt": "2024-09-27"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 24,
+      "saldo": 0,
+      "jmt": "2024-10-04"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 25,
+      "saldo": 0,
+      "jmt": "2024-10-11"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 26,
+      "saldo": 0,
+      "jmt": "2024-10-18"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 27,
+      "saldo": 0,
+      "jmt": "2024-10-25"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 28,
+      "saldo": 0,
+      "jmt": "2024-11-01"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 29,
+      "saldo": 0,
+      "jmt": "2024-11-08"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 30,
+      "saldo": 0,
+      "jmt": "2024-11-15"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 31,
+      "saldo": 0,
+      "jmt": "2024-11-22"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 32,
+      "saldo": 0,
+      "jmt": "2024-11-29"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 33,
+      "saldo": 0,
+      "jmt": "2024-12-06"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 34,
+      "saldo": 0,
+      "jmt": "2024-12-13"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 35,
+      "saldo": 0,
+      "jmt": "2024-12-20"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 36,
+      "saldo": 0,
+      "jmt": "2024-12-27"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 37,
+      "saldo": 0,
+      "jmt": "2025-01-03"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 38,
+      "saldo": 0,
+      "jmt": "2025-01-10"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 39,
+      "saldo": 0,
+      "jmt": "2025-01-17"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 40,
+      "saldo": 0,
+      "jmt": "2025-01-24"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 41,
+      "saldo": 0,
+      "jmt": "2025-01-31"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 42,
+      "saldo": 0,
+      "jmt": "2025-02-07"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 43,
+      "saldo": 0,
+      "jmt": "2025-02-14"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 44,
+      "saldo": 0,
+      "jmt": "2025-02-21"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 45,
+      "saldo": 0,
+      "jmt": "2025-02-28"
+    }
+  ],
+  "devi": [
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-06",
+      "minggu": 1,
+      "saldo": 100000,
+      "jmt": "2024-04-26"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-06",
+      "minggu": 2,
+      "saldo": 200000,
+      "jmt": "2024-05-03"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-06",
+      "minggu": 3,
+      "saldo": 300000,
+      "jmt": "2024-05-10"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-06",
+      "minggu": 4,
+      "saldo": 400000,
+      "jmt": "2024-05-17"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-06",
+      "minggu": 5,
+      "saldo": 500000,
+      "jmt": "2024-05-24"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-05-06",
+      "minggu": 6,
+      "saldo": 600000,
+      "jmt": "2024-05-31"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-06-07",
+      "minggu": 7,
+      "saldo": 700000,
+      "jmt": "2024-06-07"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-06-07",
+      "minggu": 8,
+      "saldo": 800000,
+      "jmt": "2024-06-14"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-06-07",
+      "minggu": 9,
+      "saldo": 900000,
+      "jmt": "2024-06-21"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-06-07",
+      "minggu": 10,
+      "saldo": 1000000,
+      "jmt": "2024-06-28"
+    },
+    {
+      "besar": 100000,
+      "tanggal": "2024-07-09",
+      "minggu": 11,
+      "saldo": 1100000,
+      "jmt": "2024-07-05"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 12,
+      "saldo": 0,
+      "jmt": "2024-07-12"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 13,
+      "saldo": 0,
+      "jmt": "2024-07-19"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 14,
+      "saldo": 0,
+      "jmt": "2024-07-26"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 15,
+      "saldo": 0,
+      "jmt": "2024-08-02"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 16,
+      "saldo": 0,
+      "jmt": "2024-08-09"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 17,
+      "saldo": 0,
+      "jmt": "2024-08-16"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 18,
+      "saldo": 0,
+      "jmt": "2024-08-23"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 19,
+      "saldo": 0,
+      "jmt": "2024-08-30"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 20,
+      "saldo": 0,
+      "jmt": "2024-09-06"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 21,
+      "saldo": 0,
+      "jmt": "2024-09-13"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 22,
+      "saldo": 0,
+      "jmt": "2024-09-20"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 23,
+      "saldo": 0,
+      "jmt": "2024-09-27"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 24,
+      "saldo": 0,
+      "jmt": "2024-10-04"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 25,
+      "saldo": 0,
+      "jmt": "2024-10-11"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 26,
+      "saldo": 0,
+      "jmt": "2024-10-18"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 27,
+      "saldo": 0,
+      "jmt": "2024-10-25"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 28,
+      "saldo": 0,
+      "jmt": "2024-11-01"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 29,
+      "saldo": 0,
+      "jmt": "2024-11-08"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 30,
+      "saldo": 0,
+      "jmt": "2024-11-15"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 31,
+      "saldo": 0,
+      "jmt": "2024-11-22"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 32,
+      "saldo": 0,
+      "jmt": "2024-11-29"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 33,
+      "saldo": 0,
+      "jmt": "2024-12-06"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 34,
+      "saldo": 0,
+      "jmt": "2024-12-13"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 35,
+      "saldo": 0,
+      "jmt": "2024-12-20"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 36,
+      "saldo": 0,
+      "jmt": "2024-12-27"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 37,
+      "saldo": 0,
+      "jmt": "2025-01-03"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 38,
+      "saldo": 0,
+      "jmt": "2025-01-10"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 39,
+      "saldo": 0,
+      "jmt": "2025-01-17"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 40,
+      "saldo": 0,
+      "jmt": "2025-01-24"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 41,
+      "saldo": 0,
+      "jmt": "2025-01-31"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 42,
+      "saldo": 0,
+      "jmt": "2025-02-07"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 43,
+      "saldo": 0,
+      "jmt": "2025-02-14"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 44,
+      "saldo": 0,
+      "jmt": "2025-02-21"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 45,
+      "saldo": 0,
+      "jmt": "2025-02-28"
+    }
+  ],
+  "asli": [
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 1,
+      "saldo": 0,
+      "jmt": "2024-04-26"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 2,
+      "saldo": 0,
+      "jmt": "2024-05-03"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 3,
+      "saldo": 0,
+      "jmt": "2024-05-10"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 4,
+      "saldo": 0,
+      "jmt": "2024-05-17"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 5,
+      "saldo": 0,
+      "jmt": "2024-05-24"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 6,
+      "saldo": 0,
+      "jmt": "2024-05-31"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 7,
+      "saldo": 0,
+      "jmt": "2024-06-07"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 8,
+      "saldo": 0,
+      "jmt": "2024-06-14"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 9,
+      "saldo": 0,
+      "jmt": "2024-06-21"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 10,
+      "saldo": 0,
+      "jmt": "2024-06-28"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 11,
+      "saldo": 0,
+      "jmt": "2024-07-05"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 12,
+      "saldo": 0,
+      "jmt": "2024-07-12"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 13,
+      "saldo": 0,
+      "jmt": "2024-07-19"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 14,
+      "saldo": 0,
+      "jmt": "2024-07-26"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 15,
+      "saldo": 0,
+      "jmt": "2024-08-02"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 16,
+      "saldo": 0,
+      "jmt": "2024-08-09"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 17,
+      "saldo": 0,
+      "jmt": "2024-08-16"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 18,
+      "saldo": 0,
+      "jmt": "2024-08-23"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 19,
+      "saldo": 0,
+      "jmt": "2024-08-30"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 20,
+      "saldo": 0,
+      "jmt": "2024-09-06"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 21,
+      "saldo": 0,
+      "jmt": "2024-09-13"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 22,
+      "saldo": 0,
+      "jmt": "2024-09-20"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 23,
+      "saldo": 0,
+      "jmt": "2024-09-27"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 24,
+      "saldo": 0,
+      "jmt": "2024-10-04"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 25,
+      "saldo": 0,
+      "jmt": "2024-10-11"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 26,
+      "saldo": 0,
+      "jmt": "2024-10-18"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 27,
+      "saldo": 0,
+      "jmt": "2024-10-25"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 28,
+      "saldo": 0,
+      "jmt": "2024-11-01"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 29,
+      "saldo": 0,
+      "jmt": "2024-11-08"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 30,
+      "saldo": 0,
+      "jmt": "2024-11-15"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 31,
+      "saldo": 0,
+      "jmt": "2024-11-22"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 32,
+      "saldo": 0,
+      "jmt": "2024-11-29"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 33,
+      "saldo": 0,
+      "jmt": "2024-12-06"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 34,
+      "saldo": 0,
+      "jmt": "2024-12-13"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 35,
+      "saldo": 0,
+      "jmt": "2024-12-20"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 36,
+      "saldo": 0,
+      "jmt": "2024-12-27"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 37,
+      "saldo": 0,
+      "jmt": "2025-01-03"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 38,
+      "saldo": 0,
+      "jmt": "2025-01-10"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 39,
+      "saldo": 0,
+      "jmt": "2025-01-17"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 40,
+      "saldo": 0,
+      "jmt": "2025-01-24"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 41,
+      "saldo": 0,
+      "jmt": "2025-01-31"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 42,
+      "saldo": 0,
+      "jmt": "2025-02-07"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 43,
+      "saldo": 0,
+      "jmt": "2025-02-14"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 44,
+      "saldo": 0,
+      "jmt": "2025-02-21"
+    },
+    {
+      "besar": 0,
+      "tanggal": "",
+      "minggu": 45,
+      "saldo": 0,
+      "jmt": "2025-02-28"
+    }
+  ]
+}
