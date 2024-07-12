@@ -13,7 +13,7 @@ body {
 }
 .konten {
   width: 900px;
-  height: 3730px;
+  height: 3930px;
   background-color: rgba(255,255,255,1);
   margin: auto;
   border-top-left-radius: 5px;
@@ -32,7 +32,7 @@ body {
 
 .card {
   width: 858px;
-  height: 3580px;
+  height: 3820px;
   background: rgba(59,237,183,1);
   opacity: 1;
   position: relative;
