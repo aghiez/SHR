@@ -8,97 +8,31 @@
     </head>
     <body>
         <div class="konten">
-            <span class="sedang">Selamat Datang, <?php echo $_SESSION['nama']; ?></span>
+            <span class="sedang">Selamat Datang, </span><span id="username" class="sedang"></script></span>.
             <span class="customer"><br/>Silahkan pilih Customer : 
             <select name="customer" id="customer">
                 <option value="">Pilih Nasabah</option>
-                <option value="agus">Agus Sutomo</option>
-                <option value="devi">Astika Devi Paramitha</option>
-                <option value="asli">Asli Khatul Khasanah</option>
             </select>
             </form>
             </span>
-            <a href="logout.php" class="tombol"><img src="images/exit.png" alt="Logout"></a>
-            <a href="input.php" class="tombol"><img src="images/input.png" alt="Input Data"></a>
-            <div class="card" id="card"></div>
+            <a href="javascript:void(0)" class="tombol" onclick="logout()"><img src="images/exit.png" alt="Logout"></a>
+            <a href="javascript:void(0)" class="tombol" onclick="input()"><img src="images/input.png" alt="Input Data"></a>
+            <div class="card" id="card">
+            </div>
         </div>
-        <!-- <script src="js/script1.js"></script> -->
-        <script>
-            async function fetchData(){
-                try{
-                    const response = await fetch('data/shrkospin.json');
-                    if(!response.ok){
-                        throw new Error('Respon tidak baik' + response.statusText);
-                    }
-                    const data = await response.json();
-                    return data;
-                }catch(error){
-                    console.error('Ada masalah pada pengoperasian: ', error);
-                }
-            }
 
-            document.addEventListener('DOMContentLoaded', async () => {
-                const data = await fetchData();
-                const Nasabah = document.getElementById('customer');
-                const card = document.getElementById('card');
+<!-- Firebase Wajib -->
+<script src="https://www.gstatic.com/firebasejs/10.12.3/firebase-app-compat.js"></script>
 
-                Nasabah.addEventListener('change', function() {
-                    const pilihNasabah = Nasabah.value;
-                    card.innerHTML = "";
-                    if(pilihNasabah && data[pilihNasabah]){
-                        const dataNasabah = data[pilihNasabah];
-                        dataNasabah.forEach(item => {
-                            let tanggalIndo;
-                            let tanggalJmt;
-                            if(isNaN(Date.parse(item.tanggal))){
-                                tanggalIndo = '-';
-                            } else{
-                                const date = new Date(item.tanggal);
-                                tanggalIndo = date.toLocaleDateString('id-ID', {
-                                    day: '2-digit',
-                                    month: 'long',
-                                    year: 'numeric'
-                                });
-                            }
+<!-- Firebase Pilihan -->
+<script src="https://www.gstatic.com/firebasejs/10.12.3/firebase-auth-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.3/firebase-firestore-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.3/firebase-storage-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.3/firebase-database-compat.js"></script>
 
-                            if(isNaN(Date.parse(item.jmt))){
-                                tanggalJmt = '-';
-                            }else{
-                                const date = new Date(item.jmt);
-                                tanggalJmt = date.toLocaleDateString('id-ID', {
-                                    day: '2-digit',
-                                    month: 'long',
-                                    year: 'numeric'
-                                });
-                            }
-                        const dataminggu = document.createElement('div');
-                        dataminggu.classList.add('mingguke');
-                        dataminggu.innerHTML = `
-                        <div class="box">
-                            <span class="teks">Besar : </span>
-                            <div class="boxk"><span class="teks1" id="besar">Rp. ${item.besar.toLocaleString('id-ID')},-</span></div>
+<script src="/js/firebase-config.js"></script>
+<script src="/js/script2.js"></script>
+<script src="/js/script.js"></script>
 
-                            <span class="teks">Tanggal : </span>
-                            <div class="boxk"><span class="teks1" id="tanggal">${tanggalIndo}</span></div>
-
-                            <span class="teks">Minggu Ke : </span>
-                            <div class="boxk"><span class="teks2" id="minggu">${item.minggu}</span></div>
-
-                            <span class="teks">Untuk : </span>
-                            <div class="boxk1"><span class="teks3" id="jmt">Jum'at, ${tanggalJmt}</span></div>
-
-                            <span class="teks">Saldo : </span>
-                            <div class="boxk"><span class="teks1" id="saldo">Rp. ${item.saldo.toLocaleString('id-ID')},-</span></div>
-                            <a href="set_session.php?nasabah=<?php echo $pilihNasabah; ?>&minggu=<?php echo $nilai['minggu']-1; ?>" class="yedit">Edit</a>
-                        </div>
-                        `;
-                        card.appendChild(dataminggu);
-                        });
-                    }
-                });
-
-            });
-        </script>
-        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     </body>
 </html>
