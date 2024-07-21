@@ -25,6 +25,18 @@ function validateInputs(username, password) {
     return true;
 }
 
+function validateEmail(username) {
+    if (username === "") {
+        showError('Email/Password tidak boleh kosong !');
+        return false;
+    }
+    if (!isValidEmail(username)) {
+        showError('Format email tidak valid !');
+        return false;
+    }
+    return true;
+}
+
 function register() {
     const username = document.getElementById('username').value;
     const password = document.getElementById('katasandi').value;
@@ -57,4 +69,17 @@ function login(){
         .catch((err) => {
             showError('Gagal login, Email/Password salah');
         });
+}
+
+function lupa(){
+const email = document.getElementById('username').value;
+if(!validateEmail(email)) {return;}
+
+firebase.auth().sendPasswordResetEmail(email)
+  .then(() => {
+    showerror('Cek inbox email Anda untuk mereset password'); 
+  })
+  .catch((error) => {
+    showError('Gagal mereset password: ' + error.message);
+  });
 }
