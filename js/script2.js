@@ -49,11 +49,18 @@ document.getElementById('customer').addEventListener('change', function() {
 
     card.innerHTML = '';
 
-    db.collection('customer').doc(customerID).collection('minggu')
-    .orderBy('minggu')
-    .get()
+    db.collection('customer').doc(customerID).collection('minggu').get()
     .then((snaps) => {
-        snaps.docs.forEach(mingguDoc => {
+        const mingguDocs = snaps.docs.map(doc => ({
+            id: doc.id,
+            data: doc.data() 
+        }));
+
+        mingguDocs.sort((a, b) => {
+           return parseInt(a.id) - parseInt(b.id); 
+        });
+
+        mingguDocs.forEach(mingguDoc => {
             const dataminggu = document.createElement('div');
             dataminggu.classList.add('mingguke');
             dataminggu.innerHTML = `
