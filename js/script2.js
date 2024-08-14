@@ -49,7 +49,9 @@ document.getElementById('customer').addEventListener('change', function() {
 
     card.innerHTML = '';
 
-    db.collection('customer').doc(customerID).collection('minggu').get()
+    db.collection('customer').doc(customerID).collection('minggu')
+    .orderBy('minggu')
+    .get()
     .then((snaps) => {
         snaps.docs.forEach(mingguDoc => {
             const dataminggu = document.createElement('div');
